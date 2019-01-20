@@ -1,6 +1,6 @@
-#README
+# README
 
-##Mazer
+## Mazer
 ------------------------------------------------------------------------------
 This program is designed to generate mazes using both the Aldous-Broder and
 Eller algorithms, save them in either binary or scaled vector graphic (SVG) 
@@ -9,7 +9,7 @@ or Dijkstras Algorithm. Dijkstras Algorithm has the option to use either
 euclidean or manhattan cost functions to determine preference. Mazes can also
 be loaded from a binary file.
 
-##Compiling
+## Compiling
 ------------------------------------------------------------------------------
 Compilation of Mazer may be achieved in a number of ways:
 1. Directly using the following compilation arguments:
@@ -26,7 +26,7 @@ Both of these methods will result in the formation of an executable named
 'mazer' within the 'bin' directory. If the second method was used, the command
 line argument "make clean" can be utilised to remove the executable.
 
-##Usage
+## Usage
 ------------------------------------------------------------------------------
 Mazer may be executed using the command './mazer', followed by the following 
 arguments:
@@ -100,7 +100,7 @@ EXAMPLE USAGE:
 	./mazer --g seed width height --sb filename.maze --pb
 	./mazer --h
 
-##Known Bugs
+## Known Bugs
 -----------------------------------------------------------------------------
 1. The mersenne twister random number generator, as implemented, will 
 	intermittently produce a result outside the dictated distribution range.
