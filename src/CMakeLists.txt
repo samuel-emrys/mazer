@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 2.8)
+project(mazer)
+set(CMAKE_CXX_FLAGS "-Wall -pedantic -Wextra -std=c++14")
+set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+add_executable(mazer main.cpp CmdLine.cpp Maze.cpp Generator.cpp Aldous.cpp BFS.cpp DFS.cpp Dijkstra.cpp Ellers.cpp GetBuilder.cpp GetSolver.cpp MazeSolver.cpp)

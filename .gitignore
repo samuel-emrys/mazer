@@ -1,0 +1,7 @@
+CMakeFiles/
+*.cmake
+CMakeCache.txt
+Makefile
+bin/
+.DS_Store
+docs/report/
