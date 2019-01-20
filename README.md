@@ -1,5 +1,7 @@
 # README
 
+Personal Note: This was a program that I wrote in my first year learning to program, and before I had taken any algorithms courses. It was enormously educational, however there is some implementation here that can be improved significantly. I've documented this in an anlysis I did of this program, available in docs/mazer_performance_analysis.pdf
+
 ## Mazer
 ------------------------------------------------------------------------------
 This program is designed to generate mazes using both the Aldous-Broder and
@@ -14,7 +16,7 @@ be loaded from a binary file.
 Compilation of Mazer may be achieved in a number of ways:
 1. Directly using the following compilation arguments:
 
-		g++ -Wall -pedantic -Wextra -std=c++14 src/\*.cpp -o bin/mazer
+		g++ -Wall -pedantic -Wextra -std=c++14 src/*.cpp -o bin/mazer
 
 2. Using CMake:
 Navigate to the project root and execute the following:
